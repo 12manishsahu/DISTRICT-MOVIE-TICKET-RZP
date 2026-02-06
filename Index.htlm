@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DISTRICT MOVIE TICKET RZP</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="top-header">
+  <h1>🎬 DISTRICT MOVIE TICKET RZP</h1>
+  <nav>
+    <a href="#movies">Now Showing</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Book Movie Tickets Instantly</h2>
+  <p>Powered by Razorpay</p>
+</section>
+
+<section class="movies" id="movies">
+
+  <div class="movie-card">
+    <img src="https://i.ibb.co/gZ4Rprm/concert.jpg">
+    <h3>SAIYARA</h3>
+    <p>4D concert experience</p>
+    <a href="booking.html?movie=SAIYARA"><button>Book Now</button></a>
+  </div>
+
+  <div class="movie-card">
+    <img src="https://i.ibb.co/M6VjNPX/dhadak2.jpg">
+    <h3>Dhadak 2</h3>
+    <p>Romantic drama</p>
+    <a href="booking.html?movie=Dhadak 2"><button>Book Now</button></a>
+  </div>
+
+</section>
+
+<footer>
+  <p>© 2026 DISTRICT MOVIE TICKET RZP</p>
+</footer>
+
+</body>
+</html>
