@@ -20,7 +20,25 @@ body {
 .top-header h1 {
   color: #ff0055;
 }
+/* existing styles remain same */
 
+.info-section {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #141414;
+  border-radius: 15px;
+}
+
+.info-section h2 {
+  color: #ff0055;
+  margin-bottom: 1rem;
+}
+
+.info-section p {
+  line-height: 1.6;
+  color: #ccc;
+}
 .hero {
   text-align: center;
   padding: 3rem;
