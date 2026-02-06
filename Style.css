@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+body {
+  background: #0d0d0d;
+  color: #fff;
+}
+
+.top-header {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  background: #000;
+}
+
+.top-header h1 {
+  color: #ff0055;
+}
+
+.hero {
+  text-align: center;
+  padding: 3rem;
+}
+
+.movies {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.movie-card {
+  background: #1a1a1a;
+  width: 260px;
+  padding: 1rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.movie-card button {
+  margin-top: 1rem;
+  padding: 0.6rem 1rem;
+  background: #ff0055;
+  border: none;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.booking-box {
+  max-width: 420px;
+  margin: 2rem auto;
+  background: #1a1a1a;
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+.booking-box input,
+.booking-box select {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: none;
+}
+
+.screen {
+  text-align: center;
+  background: #333;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  border-radius: 6px;
+}
+
+.seats {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 8px;
+  margin-bottom: 1rem;
+}
+
+.seat {
+  background: #444;
+  padding: 8px;
+  text-align: center;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.seat.selected {
+  background: #00ff99;
+  color: #000;
+}
+
+.price {
+  margin: 0.5rem 0;
+  color: #00ff99;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  color: #777;
+}
